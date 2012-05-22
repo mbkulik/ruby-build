@@ -7,13 +7,13 @@ ruby-build provides a simple way to compile and install Ruby on OpenBSD 5.1
 * bash
 * libyaml
 * libffi
-* [rbenv](https://github.com/sstephenson/rbenv):
+* [rbenv](https://github.com/sstephenson/rbenv)
 
 ### Installing ruby-build
 
     $ mkdir -p ~/.rbenv/plugins
     $ cd ~/.rbenv/plugins
-    $ git clone git://github.com/sstephenson/ruby-build.git
+    $ git clone git://github.com/mbkulik/ruby-build.git
 
 
 ### Installing Ruby
