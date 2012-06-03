@@ -1,6 +1,6 @@
 # ruby-build for OpenBSD
 
-ruby-build provides a simple way to compile and install Ruby on OpenBSD 5.1
+ruby-build provides a simple way to compile and install Ruby on OpenBSD
 
 ### OpenBSD Package Prerequisites
 
@@ -9,22 +9,26 @@ ruby-build provides a simple way to compile and install Ruby on OpenBSD 5.1
 * libffi
 * [rbenv](https://github.com/sstephenson/rbenv)
 
+### Supported OpenBSD Versions
+
+* 5.0 i386/amd64
+* 5.1 i386/amd64
+
 ### Installing ruby-build
 
     $ mkdir -p ~/.rbenv/plugins
     $ cd ~/.rbenv/plugins
     $ git clone git://github.com/mbkulik/ruby-build.git
 
-
 ### Installing Ruby
 
 You can use it with [rbenv](https://github.com/sstephenson/rbenv):
 
-    $ ruby-build 1.9.2-p290 ~/.rbenv/versions/1.9.2-p290
+    $ ruby-build 1.9.2-p320 ~/.rbenv/versions/1.9.2-p320
 
 ruby-build provides an `rbenv-install` command that shortens this to:
 
-    $ rbenv install 1.9.2-p290
+    $ rbenv install 1.9.2-p320
 
 ### Supported Ruby Versions
 
@@ -36,7 +40,7 @@ ruby-build provides an `rbenv-install` command that shortens this to:
 
 #### 20120519
 
-* Initial Support for OpenBSD 5.1
+* Initial Support for OpenBSD
 
 ### License
 
