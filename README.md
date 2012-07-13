@@ -32,7 +32,7 @@ ruby-build provides an `rbenv-install` command that shortens this to:
 
 ### Supported Ruby Versions
 
-* 1.8.7-p358
+* 1.8.7-p370
 * 1.9.2-p320
 * 1.9.3-p194
 
