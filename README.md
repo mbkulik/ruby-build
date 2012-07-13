@@ -24,11 +24,11 @@ ruby-build provides a simple way to compile and install Ruby on OpenBSD
 
 You can use it with [rbenv](https://github.com/sstephenson/rbenv):
 
-    $ ruby-build 1.9.2-p320 ~/.rbenv/versions/1.9.2-p320
+    $ ruby-build 1.9.2 ~/.rbenv/versions/1.9.2
 
 ruby-build provides an `rbenv-install` command that shortens this to:
 
-    $ rbenv install 1.9.2-p320
+    $ rbenv install 1.9.2
 
 ### Supported Ruby Versions
 
@@ -37,6 +37,10 @@ ruby-build provides an `rbenv-install` command that shortens this to:
 * 1.9.3-p194
 
 ### Version History
+
+### 20120712
+
+* Ruby 1.8.7 updated to p370
 
 #### 20120519
 
